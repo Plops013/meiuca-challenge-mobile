@@ -1,0 +1,15 @@
+{
+  "source": ["tokens/**/*.json"],
+  "platforms": {
+    "rn": {
+      "transformGroup": "react-native",
+      "buildPath": "./src/assets/styles/",
+      "files": [
+        {
+          "destination": "style_variables.js",
+          "format": "javascript/es6"
+        }
+      ]
+    }
+  }
+}
